@@ -9,6 +9,9 @@ import en from 'vee-validate/dist/locale/en.json';
 import VueI18n from 'vue-i18n'
 import messages from './i18n'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 // Import Bootstrap and BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
